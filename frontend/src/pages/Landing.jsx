@@ -52,7 +52,7 @@ function Landing() {
       <nav className="bg-slate-900 text-white px-8 h-16 flex items-center justify-between">
         <NavLink to="/" className="flex items-center gap-2">
           <Compass className="text-blue-300" />
-          <span className="font-bold text-lg">AI Travel Planner</span>
+          <span className="font-bold text-lg">Yatri AI</span>
         </NavLink>
 
         <div className="flex gap-2">
@@ -87,11 +87,11 @@ function Landing() {
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
           <div className="bg-white/20 text-white px-4 py-2 rounded-full flex items-center gap-2 mb-6">
             <Sparkles size={16} />
-            AI Powered Trip Planning
+            Yatri AI Powered Trip Planning
           </div>
 
           <h1 className="text-5xl md:text-6xl font-bold text-white max-w-5xl leading-tight">
-            Your AI-Powered Travel Companion
+            Your Yatri AI Travel Companion
           </h1>
 
           <p className="text-white/90 text-lg mt-6 max-w-2xl">
@@ -142,7 +142,7 @@ function Landing() {
       <footer className="bg-slate-900 text-white px-10 py-5 flex justify-between items-center mt-auto">
         <div className="flex items-center gap-2">
           <Compass size={16} className="text-blue-300" />
-          <span className="text-sm">© 2026 AI Travel Planner</span>
+          <span className="text-sm">© 2026 Yatri AI</span>
         </div>
         <div className="flex gap-6 text-sm text-gray-400">
           <span>Privacy</span>

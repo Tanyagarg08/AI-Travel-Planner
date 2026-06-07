@@ -9,7 +9,7 @@ function Navbar() {
         <div className="size-9 rounded-lg bg-blue-500 flex justify-center items-center">
           <Plane className="size-5 text-white" />
         </div>
-        <span className="font-bold text-lg">AI Travel Planner</span>
+        <span className="font-bold text-lg">Yatri AI</span>
       </NavLink>
 
       <nav className="flex items-center gap-1">

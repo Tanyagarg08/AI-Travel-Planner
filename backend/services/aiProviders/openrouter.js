@@ -57,7 +57,7 @@ export async function generateWithOpenRouter(tripData, apiKey, model) {
       "Content-Type": "application/json",
       Authorization: `Bearer ${apiKey}`,
       "HTTP-Referer": "http://localhost:5173",
-      "X-Title": "AI Travel Planner",
+      "X-Title": "Yatri AI Travel Planner",
     },
     body: JSON.stringify({
       model,
