@@ -5,7 +5,8 @@ An AI-powered travel planning web app that generates complete trip plans in seco
 ---
 
 ## 🚀 Live Demo
-> Coming soon after deployment
+
+https://yatri-ai-gargtanya191-8094s-projects.vercel.app/
 
 ---
 
