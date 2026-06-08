@@ -24,6 +24,8 @@ app.listen(env.port, () => {
     console.log(`  AI Provider: ${env.aiProvider} (free)`);
     console.log(`  OpenWeather: ${env.openweatherKey ? "set" : "MISSING"}`);
       console.log(`  OpenRouter key: ${env.OPENROUTER_API_KEY ? "set" : "MISSING"}`);
+      // ✅ add this line after OpenRouter log
+console.log(`  Pexels: ${env.pexelsKey ? "set" : "MISSING"}`);
     }
   }
 );

@@ -13,7 +13,8 @@ export async function validateOpenWeatherKey(apiKey) {
     return {
       ok: false,
       error:
-       "Paste only the API KEY (32 characters), not the full URL. Example: OPENWEATHER_API_KEY=your_32_char_key_here",
+        "Paste only the API KEY (32 characters), not the full URL. Example: OPENWEATHER_API_KEY=your_32_char_key_here",
+    };  // ✅ this closing brace was missing!
   }
 
   try {
@@ -42,6 +43,5 @@ export async function validateOpenWeatherKey(apiKey) {
     return { ok: false, error: "Could not reach OpenWeather API. Check your internet connection." };
   }
 }
-}
-export { validateAiProvider };
 
+export { validateAiProvider };
